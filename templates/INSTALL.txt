@@ -1,0 +1,5 @@
+Thanks for trying out n3u Niche Store!
+To install this template follow these simple steps:
+
+Extract the template and upload it to your templates directory of n3u Niche Store.
+After that you may change the active template from the Administration Panel.

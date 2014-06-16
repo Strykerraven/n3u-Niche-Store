@@ -1,0 +1,5 @@
+#Info{background-image:none;text-align:center;}
+#Info div{display:block;margin:1em auto;width:80%;}
+#Info h3{text-align:center;}
+#Info div label{clear:both;display:block;margin:auto;text-align:left;}
+#Info div span{clear:both;display:block;margin:auto;text-align:right;}

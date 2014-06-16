@@ -1,0 +1,12 @@
+#SearchFilters{background-image:none;text-align:left;}
+#SearchFilters form{border-color:inherit;border-style:inherit;border-width:0;padding-left:2.5%;padding-right:2.5%;width:90%;margin:1em auto;}
+#SearchFilters form dl{border-color:inherit;border-style:inherit;border-width:0;margin-bottom:0;overflow:auto;text-align:left;}
+#SearchFilters form dt{font-size:100%;margin-left:5%;margin-top:0;}
+#SearchFilters form dd{font-size:100%;margin-bottom:5%;margin-left:5%;}
+#SearchFilters form dd .link{font-style:italic;font-weight:normal;margin-bottom:5%;margin-left:5%;}
+#SearchFilters form dd .link_x{font-style:italic;font-weight:normal;margin-bottom:5%;margin-left:5%;}
+#SearchFilters form input,#SearchFilters form select{display:block;margin-left:auto;margin-right:auto;}
+#SearchFilters form label{font-weight:bolder;text-align:left;}
+#SearchFilters h3{text-align:center;}
+#SearchFilters h4{margin-bottom:0;padding-bottom:0;}
+#SearchFilters .explain{display:block;font-style:italic;margin-left:1em;margin-bottom:0;padding-bottom:0;}

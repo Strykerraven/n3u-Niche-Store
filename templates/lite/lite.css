@@ -1,0 +1,70 @@
+html{background-color:#FFFFFF;color:#000000;} /* default html style */
+body{display:inline;font-size:100%;margin:auto;} /* default body style */
+a{color:blue;text-decoration:none;}
+h1{font-size:100%;text-align:center;} /* Used for Item Titles */
+img{border:0;}
+label{font-weight:bold;}
+select,textarea,input[type="text"],input[type="password"]{width:70%;}
+.block_header, .block_footer{background-color:inherit;display:block;margin-bottom:1em;margin-left:auto;margin-right:auto;overflow:hidden;width:60%;z-index:2;}
+.block_left, .block_right{background-color:inherit;display:block;margin-bottom:1em;margin-left:auto;margin-right:auto;overflow:hidden;z-index:2;}
+.buy_link{float:right;font-size:200%;font-weight:bold;margin-top:0;margin-bottom:1em;padding:0;}
+.description{font-style:italic;margin-top:2em;min-height:7em;padding:1em;}
+.explain{display:block;font-style:italic;margin-left:1em;margin-bottom:0;padding-bottom:0;}
+.Extra_Info{clear:none;display:block;font-size:80%;margin-bottom:1.5em;margin-top:1.5em;}
+.hr{background-color:transparent;border-style:dotted;border-radius:2em;border-width:1px;clear:both;height:1px;width:85%;}
+.Pagination{font-style:italic;margin-bottom:1em;text-align:center;}
+.Pagination .number{font-style:normal;font-weight:bold;}
+.Pagination .current{font-style:normal;font-weight:bolder;}
+.Price_Info{float:right;padding-left:1em;padding-right:1em;text-align:center;}
+.Price_Savings{color:gray;display:block;font-size:80%;font-style:italic;font-weight: bold;} /* Price Savings */
+.ProsperentAd{clear:both;display:block;margin:auto;width:90%;z-index:0;} /* #ProsperentAd style */
+#wrapper{border-width:0;display:block;margin-bottom:0;margin-left:auto;margin-right:auto;margin-top:0;padding:0;width:95%;}
+#header{border-width:0;clear:both;display:block;height:3em;text-align:center;} /* Header */
+#header #Top{border-width:0;color:#000000;font-size:200%;text-decoration:none;} /* Logo */
+#leftnav{border-width:0;display:block;left:1%;margin-bottom:auto;margin-left:auto;margin-right:auto;margin-top:0;min-width:15%;position:absolute;text-align:center;text-decoration:none;top:3em;width:17%;z-index:6;} /* Left */
+#rightnav{border-width:0;display:block;margin-bottom:auto;margin-left:auto;margin-right:auto;margin-top:0;min-width:15%;opacity:1.0;position:absolute;right:1%;text-align:center;text-decoration:none;top:3em;width:17%;z-index:6;} /* right */
+#content{border-width:0;display:block;margin-bottom:auto;margin-left:auto;margin-right:auto;margin-top:0;min-width:55%;position:relative;text-align:center;width:60%;z-index:5;}/* Content Area (middle) */
+#footer{border-width:0;clear:both;display:block;margin-bottom:auto;margin-left:auto !important;margin-right:auto !important;margin-top:1em;position:relative;text-align:center;text-decoration:none;} /* Footer */
+#footer ul, #footer li{display:inline;margin:0;padding:0;}
+#AdminLinksIndex{display:block;margin:auto;margin-top:1.85em;text-align:center;width:33%;}
+#CategoriesIndex{clear:left;display:block;float:left;margin:auto;text-align:center;width:33%;}
+#OtherLinksIndex{clear:right;display:block;float:right;margin:auto;text-align:center;width:33%;}
+#AdminLinksIndex ul, #CategoriesIndex ul, #OtherLinksIndex ul{list-style-type:none;margin:0;padding:0;}
+#ContactForm{border-width:0;text-align:center;width:90%;margin:auto;}
+#ContactForm iframe{border-width:0;height:300px;width:500px;margin:auto;}
+#ContactForm #recaptcha_widget_div{display:block;text-align:center;width:50%;margin:auto;}
+#ContactForm input[type="checkbox"],#ContactForm input[type="text"],#ContactForm select, #ContactForm textarea{clear:right;display:block;float:right;margin:auto 1em;width:45%;}
+#ContactForm .explain{clear:both;display:block;}
+#ContactForm .title{clear:left;display:block;float:left;font-weight:bolder;margin:auto 1em;text-align:right;width:45%;}
+#Contact .required{color:#FF0000;font-size:100%;}
+#Contact .fail{color:#FF0000;font-size:100%;font-weight:bolder;}
+#Contact .success{color:#00FF00;font-size:100%;font-weight:bolder;}
+#Debug{clear:both;display:block;font-size:100%;font-style:normal;margin:1em auto;margin-top:0;overflow:auto;padding:0;text-align:left;word-wrap:break-word;}
+#Debug a{color:#2A4E6C;text-decoration:none;}
+#Debug form fieldset{display:block;margin:auto;margin-bottom:1em;position:relative;min-width:350px;}
+#Debug h3{text-align:center;}
+#Debug h5{clear:both;font-style:normal;font-size:90%;}
+#Debug legend{text-align:center;}
+#Debug li{clear:both;display:block;margin:auto 0;font-weight:bold;font-family:Arial, Helvetica, sans-serif;font-size:80%;}
+#Debug li span{font-style:italic;font-weight:normal;}
+#Debug .debugvalues{clear:both;display:block;font-family:Arial, Helvetica, sans-serif;font-size:90%;margin:auto;width:90%;}
+#Debug .hr{display:block;margin:1em auto;width:75%;}
+#Debug .keyvalue{display:inline-block;font-style:normal;font-weight:bold;font-size:80%;}
+#Debug .stringvalue{display:inline-block;font-size:75%;}
+#Item small{display:block;font-style:italic;margin-bottom:1.5em;margin-left:auto;margin-right:auto;text-align:center;}
+#Item .image{float:left;margin-bottom:1em;margin-right:1.5em;margin-top:0.5em;}
+#Login input{display:inline;margin-bottom:0.5em;margin-left:auto;margin-right:auto;margin-top:0;}
+#Login h5{display:block;margin-bottom:0;margin-top:0.5em;}
+#Login input[type="text"],#Login input[type="password"]{display:inline;margin-left:auto;margin-right:auto;width:60%;}
+#Login #reCaptcha{display:block;margin-left:auto;margin-right:auto;width:58%;}
+#Login input[type="submit"]{display:block;margin-top:0.5em;}
+#SearchResults, #Item{border-width:0;display:block;text-align:left;}
+#SearchResults h3, #Item h3, #Contact h3{text-align:center;}
+#SearchResults h4, #Item h4{font-size:100%;font-weight:bolder;margin-bottom:1em;margin-top:0;text-align:center;} /* Title for result */
+#SearchResults h5, #Item h5{display:inline;font-size:110%;font-weight:bolder;}
+#SearchResults .image{float:left;margin-bottom:1em;margin-right:1.5em;margin-top:0.5em;}
+/** Custom Block CSS **/
+#Ad{color:#000000;display:block;margin:auto!important;text-align:center;}
+#Ad a{color:#000000;}
+#Ad div{color:#000000;display:block !important;margin-left:auto !important;margin-right:auto !important;}
+#Banner_Rotator img{margin-bottom:1.5em;margin-top:1.5em;}

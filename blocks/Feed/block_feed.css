@@ -1,0 +1,7 @@
+#FeedInfo{background-image:none;text-align:center;}
+#FeedInfo form{width:90%;margin:1em auto;}
+#FeedInfo h3{text-align:center;}
+#FeedInfo input[type="submit"]{display:block;margin:auto;}
+#FeedInfo input[type="text"]{width:80%;margin-left:1em;}
+#FeedInfo select{display:block;margin:auto;margin-bottom:1em;width:25%;}
+#FeedInfo .explain{display:block;font-style:italic;margin:0 1em;}

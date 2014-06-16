@@ -1,0 +1,26 @@
+#Admin #Dashboard,.LngsWrapper{clear:both;display:block;margin:auto;text-align:center;width:90%;}
+#Admin{border-width:0;text-align:left;}
+#Admin form{margin:auto;width:90%;}
+#Admin h3{text-align:center;}
+#Admin h4{clear:both;margin-bottom:0;padding-bottom:0;}
+#Admin input[type="radio"]{background-color:transparent;border-width:0;display:inline;margin:2em auto;margin-left:1em;margin-right:0;padding:0em;width:5%;}
+#Admin input[type="submit"], #Admin input[type="button"]{display:block;margin:1em auto;text-align:center;}
+#Admin input[type="password"],#Admin input[type="text"]{display:block;margin:1em auto;}
+#Admin label{clear:both;display:block;font-weight:bold;margin-bottom:0;padding-bottom:0;}
+#Admin select{display:block;margin:auto;min-width:70%;}
+
+#Admin textarea{display:block;margin:auto;min-width:70%;min-height:3em;}
+#Admin .ClearCache{border-width:1px;display:block;margin-left:auto;margin-right:auto;margin-bottom:0;margin-top:1em;text-align:center;width:75%;}
+#Admin .DirSizes{display:block;margin-left:auto;margin-right:auto;text-align:center;}
+#Admin .SiteURL{display:block;float:left;font-size:75%;line-height:1em;margin:1em auto;text-align:right;width:48.5%;}
+#Admin .SitePath{display:block;float:right;line-height:1em;margin:1em auto;width:48.5%;}
+#Admin .False{margin-left:0em;}
+#Admin .True{display:inline-block;}
+.LngsWrapper span{display:block;font-size:100%;font-weight:bold;line-height:2em;margin:auto;text-align:center;text-decoration:underline;}
+.LngsWrapper:hover,.LngsWrapper label:hover,.LngsWrapper span:hover,.LngsWrapper input:hover{background-color:rgba(170,187,187,0.25);}
+.DashboardRow:hover,.StatsRow:hover,.MessagesWrapper:hover{background-color:rgba(170,187,187,0.25);font-size:120%;}
+.LngsLeft,.LngsLeft label{display:block;float:left;font-size:100%;font-weight:bold;margin:auto;padding:0;text-align:center;width:35%;}
+.LngsRight, input[id^=lang]{clear:right;display:block;float:right;margin:auto;padding:0;width:62.5%;}
+.MessagesWrapper,.DashboardRow,.StatsRow{border-width:0.25em 0.5em;border-color:black;border-style:double;display:block;list-style-type:none;margin: 0 auto;margin-bottom:0.25em;text-align:center;width:90%;}
+.MessagesLeft,.RowOption{border-color:red;border-style:solid;border-width:0;display:inline-block;font-weight:bold;text-align:center;text-shadow:0px 1px 1px #4682B4;width:55%;}
+.MessagesRight,.RowValue{border-color:green;border-style:solid;border-width:0;color:#5A6673;display:inline-block;font-weight:bold;text-align:center;width:42.5%;}

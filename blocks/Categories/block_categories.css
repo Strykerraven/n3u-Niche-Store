@@ -1,0 +1,7 @@
+#Categories{background-image:none;text-align:left;}
+#Categories form{margin:1em auto;width:90%;}
+#Categories form input,#Categories form textarea{display:block;margin-left:auto;margin-right:auto;}
+#Categories h3{text-align:center;}
+#Categories span{display:block;text-align:left;}
+#Categories ul{border-style:none;list-style-type:disc;margin-bottom:5%;margin-left:5%;padding:2.5%;text-align:left;}
+#Categories .link{font-size:120%;}

@@ -1,0 +1,139 @@
+html{background-color:#000000;color:#FFFFFF;font-size:100%;letter-spacing:0;word-spacing:0;} /* default html style */
+body{display:block;margin:auto;text-align:center;} /* default body style */
+a{color:#5A6673;text-shadow:1px 1px 1px #4682B4;text-decoration:none;} /* default link style */
+a:hover{color:red;text-decoration:underline;text-shadow:1px 1px 2px #000000;}
+h1{font-size:100%;text-align:center;} /* Used for Item Titles */
+h3{background-color:#000000;color:#FFFFFF;cursor:pointer;font-family:"Comic Sans MS", cursive, sans-serif;font-size:120%;letter-spacing:1px;margin:0 auto;text-align:center;text-shadow:0px 2px 2px #DDD;word-wrap:break-word;z-index:3;} /* Used for Block Titles */
+h3:hover{color:red;text-align:center;text-shadow:1px 2px 2px #FF4500;}
+h4{color:#5A6673;text-align:center;text-decoration:none;} /* Used for Search Result Titles */
+h4:hover{color:red;text-align:center;text-shadow:1px 1px 2px #000000;}
+hr{background-color:#000000;border-color:#111111;border-style:outset;border-width:0;color:#FFFFFF;height:0.5em;margin:auto;margin-top:0;}
+img{border:0;}
+label{color:#708090;font-weight:bold;text-decoration:none;}
+legend{color:#5A6673;text-shadow:1px 1px 1px #4682B4;cursor:pointer;font-weight:bold;text-align:center;text-decoration:underline;}
+legend:hover{color:red;text-decoration:underline;text-shadow:1px 1px 2px #FF4500;}
+select,textarea,input[type="text"],input[type="password"]{width:70%;}
+.block_header, .block_footer{background-color:#FFFFFF;border-color:#FEFEFE;border-radius:2em;border-style:solid;border-width:0.25em;color:#000000;display:block;font-family:"Comic Sans MS", cursive, sans-serif;margin:auto;margin-bottom:1em;overflow:hidden;z-index:2;}
+.block_left, .block_right{background-color:#FFFFFF;border-color:#FEFEFE;border-radius:2em;border-style:solid;border-width:0.25em;color:#000000;display:block;font-family:"Comic Sans MS", cursive, sans-serif;margin:auto;margin-bottom:1em;overflow:hidden;z-index:2;}
+.Button{background-color:#000000;border-color:#010101;border-radius:2em;border-style:solid;color:#FFFFFF;cursor:pointer;display:block;font-size:100%;font-weight:bold;padding:0.2em 0.5em;text-align:center;text-shadow:0px 2px 2px #DDD;}
+.Button:hover{color:red;font-weight:bold;text-decoration:none;text-shadow:1px 2px 2px #FF4500;} /* Item Buy Link Hover */
+.description{font-style:italic;margin-top:1em;padding:1em;} /* description style */
+.edit_textarea{height:500px;width:85%;}
+.explain{display:block;font-style:italic;margin-left:1em;margin-bottom:0;padding-bottom:0;}
+.Extra_Info{clear:left;display:block;font-size:80%;margin:1em auto;text-align:left;} /* .Extra_Info style */
+.Extra_Info h5{margin-left:1em;} /* .Extra_Info style */
+.fail{color:red;font-size:100%;font-weight:bolder;}
+.hr{background-color:transparent;border-style:dotted;border-radius:2em;border-width:1px;clear:both;height:1px;margin:1em auto;width:85%;}
+.Pagination{font-size:85%;font-style:italic;letter-spacing:0;margin-bottom:1em;text-align:center;word-spacing:1px;} /* .Pagination style */
+.Pagination .number{font-weight:bold;}
+.Pagination .current{font-weight:bolder;}
+.Price{color:#708090;font-family:"Comic Sans MS", cursive, sans-serif;font-style:italic;text-align:center;text-decoration:none;} /* Price */
+.Price_Currency,.Price_Symbol{font-size:70%;font-weight:normal;} /* Price Currency */
+.Price_Info{display:block;float:right;font-style:italic;letter-spacing:0;margin-right:1em;padding-left:1em;padding-right:1em;text-align:center;word-wrap:break-word;} /* Price Info style */
+.Price_Normal{color:#109910;font-size:100%;} /* (normal) Price */
+.Price_Normal del{color:red;font-size:90%;font-weight:normal;} /* Not On-Sale (old) Price */
+.Price_Sale{color:green;font-size:100%;font-weight:bold;} /* On-Sale Price */
+.Price_Savings{color:gray;display:block;font-size:75%;font-style:italic;font-weight:bold;} /* Price Savings */
+.success{color:green;font-size:100%;font-weight:bolder;}
+#wrapper{border-width:0;display:block;margin:0 auto;min-height:250px;padding:0;width:100%;}
+#header{clear:both;display:block;margin:auto;margin-top:1em;position:relative;min-width:55%;text-align:center;width:60%;z-index:3;} /* Header style */
+#header #Top{color:#000000;display:block;font-size:100%;height:1em;position:static;margin:auto;text-decoration:none;width:100%;} /* Logo style */
+#Top .TopBar{background-color:rgba(0,0,0,0.8);color:#FFFFFF;display:block;font-weight:bolder;left:0;margin:auto;position:fixed;text-align:center;top:0;width:100%;z-index:5;}
+#Top .TopBar nav{display:inline-block;margin:0 auto;position:relative;}
+#Top .TopBar nav ul{display:inline-table;list-style:none;margin:auto;padding:0 0.5em;position:relative;top:0;z-index:4;}
+#Top .TopBar nav ul:after{content:'';clear:both;display:inline-block;margin:auto;}
+#Top .TopBar nav ul li{border-style:solid;border-width:0;border-color:black;color:#FFFFFF;cursor:pointer;display:inline-block;position:relative;}
+#Top .TopBar nav ul ul:before{border-left:4px solid transparent;border-right:4px solid transparent;border-top:4px solid #5A6673;content: '';display:inline-block;height:0;width:0;vertical-align:middle;-webkit-transition: color 0.1s linear;-moz-transition: color 0.1s linear;-o-transition: color 0.1s linear;transition: color 0.1s linear;}
+#Top .TopBar nav ul li:hover{color:#FF0000;}
+#Top .TopBar nav ul li:hover a{color:#FFFFFF;}
+#Top .TopBar nav ul li a{clear:both;color:#FFFFFF;padding:0 0.5em;position:relative;text-align:center;text-decoration:none;text-shadow:0px 2px 3px #DDD;}
+#Top .TopBar nav ul li:hover a:hover{color:#FF0000;text-shadow:1px 2px 2px #FF4500;}
+#Top .TopBar nav ul li:hover > ul{color:white;display:block;left:-50%;position:absolute;text-align:center;top:100%;vertical-align:middle;z-index:7;}
+#Top .TopBar nav ul ul{background-color:rgba(0,0,0,0.8);display:none;font-size:110%;margin:0 auto;right:-50%;white-space:nowrap;z-index:7;}
+#Top .TopBar nav ul ul li{display:block;margin:0.5em auto;margin-top:0;position:relative;}
+#Top .TopBar #menu_form{clear:both;display:block;margin:auto;padding:0;position:relative;text-shadow:0px 2px 3px #DDD;width:10.5em;vertical-align: middle;}
+#leftnav{color:#000000;display:block;left:1%;margin:auto;margin-top:0;min-width:15%;position:absolute;text-align:center;text-decoration:none;top:2em;width:17%;} /* Left */
+#rightnav{color:#000000;display:block;margin:auto;margin-top:0;min-width:15%;position:absolute;right:1%;text-align:center;text-decoration:none;top:2em;width:17%;} /* right */
+#content{background-color:#FFFFFF;border-color:#FEFEFE;border-radius:2em;border-style:solid;border-width:0.25em;color:#000000;display:block;font-family:"Comic Sans MS", cursive, sans-serif;margin:1em auto;margin-top:0;overflow:hidden;position:relative;text-align:center;width:60%;} /* Content Area (middle) */
+#footer{clear:both;display:block;font-style:italic;margin:auto;margin-top:1em;position:relative;text-align:center;text-decoration:none;width:60%;} /* Footer */
+#footer ul, #footer li{display:inline;margin:0;padding:0;}
+#footer a:hover{color:#FF0000;text-shadow:1px 2px 2px #FF4500;}
+#footer #Bottom{font-size:80%;} /* Footer style */
+#footer #Bottom a{color:#FFFFFF;}
+#Admin {font-family:"Comic Sans MS", cursive, sans-serif;}
+#Contact{border-width:0;margin:auto;text-align:center;} /* Contact Page style */
+#ContactForm{display:block;margin:auto;text-align:center;width:90%;}
+#ContactForm iframe{border-width:0;height:300px;width:500px;margin:auto;}
+#ContactForm #recaptcha_widget_div{display:block;text-align:center;width:50%;margin:auto;}
+#ContactForm input[type="checkbox"],#ContactForm input[type="text"],#ContactForm select,#ContactForm textarea{clear:right;display:block;float:right;margin:0.5em;text-align:left;width:65%;}
+#ContactForm .explain{clear:right;display:inline-block;margin:auto;text-align:right;}
+#ContactForm .title{clear:both;display:block;float:left;font-weight:bolder;margin:0.5em auto;text-align:right;width:25%;}
+#Contact .Button{display:inline-block;margin:1em auto;text-align:center;}
+#Contact .fail{color:#FF0000;font-size:100%;font-weight:bolder;}
+#Contact .required{color:#FF0000;font-size:100%;}
+#Contact .success{color:#00FF00;font-size:100%;font-weight:bolder;}
+#AdminLinksIndex ul, #CategoriesIndex ul, #OtherLinksIndex ul{list-style-type:none;margin:0;padding:0;}
+#Debug{background-color:#FFFFFF;border-color:#FEFEFE;border-radius:2em;border-style:solid;border-width:0.25em;clear:both;display:block;font-family:"Comic Sans MS", cursive, sans-serif;font-style:normal;margin:1em auto;margin-top:0;overflow:auto;position:relative;text-align:left;word-wrap:break-word;}
+#Debug a{color:#2A4E6C;text-decoration:none;}
+#Debug form fieldset{display:block;margin:auto;margin-bottom:1em;position:relative;width:85%;}
+#Debug h5{clear:both;color:#5A6673;font-style:normal;font-size:90%;}
+#Debug li{clear:both;display:block;margin:auto 0;font-weight:bold;font-family:Arial, Helvetica, sans-serif;font-size:80%;}
+#Debug li span{font-style:italic;font-weight:normal;}
+#Debug .debugvalues{clear:both;display:block;font-family:Arial, Helvetica, sans-serif;font-size:90%;margin:auto;width:90%;}
+#Debug .keyvalue{display:inline-block;font-style:normal;font-weight:bold;font-size:80%;}
+#Debug .stringvalue{display:inline-block;font-size:75%;}
+#Home{display:block;margin:auto;}/* Home Div */
+#Home label{display:block;}
+#Home .image{padding:0.25em 0.5em;} /* Home images */
+#Home #Brands, #Home #Merchants, #Home #SearchIndex{display:block;width:85%;margin:1em auto;}
+#Home #AdminLinksIndex{display:inline-block;margin:1em auto;text-align:center;width:33%;}
+#Home #CategoriesIndex{clear:left;display:block;float:left;margin:1em auto;text-align:center;width:33%;}
+#Home #OtherLinksIndex{clear:right;display:block;float:right;margin:1em auto;text-align:center;width:33%;}
+#Home #SearchBar{display:inline-block;width:75%;}
+#Home #SearchBar input[type="text"]{display:inline-block;width:80%;}
+#Home #SearchBar input[type="submit"]{display:inline-block;}
+#Item{text-align:left;}/* Item div */
+#Item small{display:block;font-style:italic;margin-bottom:1.5em;margin-left:auto;margin-right:auto;text-align:center;}
+#Item .buy_link{background-color:#000000;border-color:#010101;border-radius:2em;border-style:solid;color:#FFFFFF;cursor:pointer;display:block;float:right;font-size:110%;font-weight:bold;margin-top:0;margin-bottom:0;padding:0.2em 0.5em;text-align:center;text-shadow:0px 2px 2px #DDD;}
+#Item .buy_link:hover{color:red;font-weight:bold;text-decoration:none;text-shadow:1px 2px 2px #FF4500;} /* Item Buy Link Hover */
+#Item .description{font-family:"Courier New","Lucida Console","Comic Sans MS";font-style:italic;min-height:6em;} /* Item description */
+#Item .image{float:left;margin-bottom:1em;margin-right:1.5em;margin-top:0.5em;} /* image style */
+#Item .Extra_Info{margin-bottom:2em;} /* Item #Extra_Info */
+#Login{text-align:center;}
+#Login h5{display:block;margin-bottom:0;margin-top:0.5em;text-align:center;}
+#Login input{margin-bottom:0.5em;margin-left:auto;margin-right:auto;margin-top:0;}
+#Login input[type="text"],#Login input[type="password"]{margin-left:auto;margin-right:auto;width:35%;}
+#Login input[type="submit"]{display:block;margin-top:0.5em;}
+#Login #reCaptcha{display:block;margin-left:auto;margin-right:auto;width:38.5%;}
+#Login .fail{color:#FF0000;font-size:100%;font-weight:bolder;}
+#Privacy,#Terms{border-color:inherit;border-style:inherit;border-width:0;color:#000000;text-align:left;} /* Privacy Page */
+#Privacy a,#Terms a{text-decoration:none;}
+#Privacy label,#Terms label{display:block;margin:1em auto;text-align:center;}
+#Privacy h5,#Terms h5{margin:1em;margin-bottom:0;text-align:left;}
+#Privacy h5.lastupdated,#Terms h5.lastupdated{display:block;margin:1em auto;text-align:center;}
+#Privacy p,#Terms p{margin-top:0;font-style:italic;}
+#SearchResults{border-color:#000000;border-style:solid;border-width:0;display:block;text-align:left;} /* SearchResults div style */
+#SearchResults h4, #Item h4{font-size:100%;font-weight:bolder;margin-bottom:1em;margin-top:0;text-align:center;} /* Title for result */
+#SearchResults h5, #Item h5{display:inline;font-size:110%;font-weight:bolder;text-align:left;}
+#SearchResults small{display:block;font-style:italic;letter-spacing:0;margin-bottom:1.5em;margin-left:auto;margin-right:auto;text-align:center;}
+#SearchResults .image{float:left;margin:auto 1em;} /* image style */
+#Trap #reCaptcha{display:block;margin-left:auto;margin-right:auto;width:40%;}
+/* Custom Block CSS */
+#BackToTop{cursor:pointer;bottom:0;color:#FFFFFF;font-size:100%;height:1.25em;left:0;margin:0;padding:0;position:fixed;z-index:4;width:100%;}
+#BackToTop a{color:#FFFFFF;font-style:normal;font-weight:bold;text-shadow:0px 2px 3px #DDD;}
+#BackToTop a:hover{text-decoration:none;}
+#Banner_Rotator img{display:block;margin-bottom:1.5em;margin-top:1.5em;}
+#Categories a:hover{text-decoration:none;}
+#Categories ul{list-style-type:none;margin:auto;margin-bottom:1em;text-align:center;}
+#Categories li{clear:both;display:block;margin:auto 1em;text-align:center;}
+#Categories .atomlink{float:right;position:static;margin:auto;width:16px;}
+#Categories .atomlink img{padding-right:0.25em;position:relative;vertical-align:middle;width:14px;}
+#Categories .link{display:inline-block;margin:auto;text-align:center;}
+#FeedInfo a:hover{text-decoration:none;}
+#Info h4{clear:left;display:inline-block;float:left;font-size:75%;margin:auto;}
+#Info div{display:block;margin:auto;margin-bottom:1em;}
+#Info span{clear:right;display:inline-block;float:right;font-size:75%;font-style:italic;font-weight:bold;margin-bottom:1em;text-align:center;}
+#LinkToThisPage{font-style:normal;text-align:center;}
+#Version_Checker label{float:left;clear:left;margin:0 2em;}
+#Version_Checker span{clear:right;float:right;margin:0 2em;}
+#Version_Checker .Outdated,#Version_Checker .Version_Tampered,#Version_Checker .Up_To_Date{clear:both;float:none;font-style:italic;text-align:center;}

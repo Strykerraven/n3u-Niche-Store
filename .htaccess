@@ -1,0 +1,74 @@
+###################################################
+## Prevent Viewing of .htaccess from browser
+###################################################
+<Files ~ "^\.ht">
+	Order allow,deny
+	Deny from all
+	Satisfy All
+</Files>
+
+###################################################
+## Set Options & Charset
+###################################################
+Options +FollowSymLinks
+AddDefaultCharset UTF-8
+
+###################################################
+## Force apache to use this as error document
+###################################################
+## ErrorDocument 404 /index.php?x=error
+
+###################################################
+## Rewrite Rules (Required for CleanURLs)
+###################################################
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    ## Some host may require you uncomment the line below
+    ## RewriteBase /
+    
+    ###################################################
+    # Do not process images or CSS files further
+    # No more rewriting occurs if rule is a success
+    ###################################################
+    RewriteRule \.(css|jpe?g|gif|png)$ - [L]
+
+    ###################################################
+    # Rewrite URLs
+    ###################################################
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-l
+    RewriteRule ^(.*)_(.*)_(.*)_(.*)-(.*)-(.*)\.(htm|xml)$ index.php?x=$1&m=$2&b=$3&q=$4&sort=$5&p=$6 [L]
+    RewriteRule ^admin_messages_(.*)\.htm$ index.php?x=admin&page=messages&url=$1 [L]
+    RewriteRule ^admin_(.*)\.htm$ index.php?x=admin&page=$1 [L]
+    RewriteRule ^page_(.*)\.htm$ index.php?x=page&page=$1 [L]
+    RewriteRule ^(.*)_(.*)\.htm$ index.php?x=$1&item=$2 [L]
+    RewriteRule ^download/(.*)$ index.php?x=download&url=$1 [L]
+    RewriteRule ^go/(.*)\.htm$ index.php?x=go&url=$1 [L]
+    RewriteRule ^(.*)\.htm$ index.php?x=$1
+</IfModule>
+
+###################################################
+# Set CSS, JS & Image Expires Headers
+###################################################
+<IfModule mod_expires.c>
+	ExpiresActive On
+    ExpiresDefault "access 1 day"
+	<FilesMatch "\.(gif|ico|jpg|jpeg|png)$">
+	ExpiresDefault "access plus 1 month"
+	</FilesMatch>
+	<FilesMatch "\.(css|js|xml)$">
+	ExpiresDefault "access plus 1 week"
+	</FilesMatch>
+</IfModule>
+
+###################################################
+# Enable Compression
+###################################################
+# php_flag zlib.output_compression On
+# php_value zlib.output_compression_level 5
+# BEGIN GZIP
+<ifmodule mod_deflate.c>
+	AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript text/javascript
+</ifmodule>
+# END GZIP

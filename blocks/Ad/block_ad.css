@@ -1,0 +1,8 @@
+#Ad{background-image:none;text-align:left;} /* Control Ad style here */
+#Ad div{border-width:0;display:block;font-style:italic;margin:1em auto;text-align:center;}
+#Ad .explain{display:block;font-style:italic;margin-bottom:0;margin-left:1em;padding-bottom:0;}
+#Ad h3{text-align:center;}
+#Ad h4{margin-bottom:0;padding-bottom:0;}
+#Ad form{display:block;margin:1em auto;width:90%;}
+#Ad input[type="submit"]{display:block;margin:auto;}
+#Ad textarea{display:block;margin:auto;overflow:hidden;}
