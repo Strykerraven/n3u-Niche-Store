@@ -20,10 +20,10 @@
 	// Get required files and execute required functions in order
 	require_once('Prosperent_Api.php'); // The Prosperent Api library
 
-	$n3u_ServerVars = filter_input_array(INPUT_SERVER);
+	$n3u_ServerVars = $_SERVER;
 	n3u_Input(); // Gets and filters input data
 	n3u_Config(); // Gets and filters config data
-	$n3u_PostVars = filter_input_array(INPUT_POST);
+	$n3u_PostVars = $_POST;
 	n3u_Defaults(); // Checks that defaults are set, if not sets them.
 //	
 	session_start(); // Check Sessions
@@ -171,7 +171,7 @@
 				$name = str_replace($n3u_configVars['blocks_dir'],'',$folderpath);
 				if(!isset($n3u_blockData[$name]) || $n3u_blockData[$name] == NULL){
 					$n3u_blockData[$name] = array(
-						'Path' => $n3u_configVars['blocks_dir'] . $name . '/block_'.$name.'.php',
+						'Path' => $n3u_configVars['blocks_dir'] . $name . '/block_'.strtolower($name).'.php',
 						'Position' => '#disabled',
 						'SortOrder' => '3',
 					);
@@ -186,7 +186,7 @@
 			foreach($folderlist as $folderpath){
 				$name = str_replace($n3u_configVars['blocks_dir'],'',$folderpath);
 				$n3u_blockData[$name] = array(
-					'Path' => $n3u_configVars['blocks_dir'] . $name . '/block_'.$name.'.php',
+					'Path' => $n3u_configVars['blocks_dir'] . $name . '/block_'.strtolower($name).'.php',
 					'Position' => '#disabled',
 					'SortOrder' => '3',
 				);
