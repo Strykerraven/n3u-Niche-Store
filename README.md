@@ -6,18 +6,19 @@ n3u Niche Store was **DISCONTINUED** as of version 14.02.20, It tested functiona
 ## Requirements
 ===============
 Please ensure you meet the following requirements, Not doing so may result in unexpected behavior.
--- php 5.3 or greater
--- HTML5 Compatible Web Browser *(Mostly backward compatible with HTML4)*
--- [ProsperentAPI membership](http://prosperent.com/ref/400414) - **FREE, Earn Commissions**
+- PHP 5.3 or greater
+- HTML5 Compatible Web Browser *(Mostly backward compatible with HTML4)*
+- [ProsperentAPI membership](http://prosperent.com/ref/400414) **FREE, Earn Commissions**
 
 ## Features
 ===============
 Here are just a few of the many features you can find inside!
+- Niche Focus
 - Clean URL's (Rewritting)
 - Caching (Both file and image + Browser headers)
 - ProductAPI (Access to thousands of products from hundreds of merchants)
 - Multi-Site support ... Yep, You can host more than one store with the same installation!
-- Admin Panel
+- Admin Panel for easy configuration
 - NoSQL database
 - Template Support
 - HTML5 & CSS3
