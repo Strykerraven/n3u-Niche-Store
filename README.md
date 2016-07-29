@@ -1,32 +1,47 @@
-n3u-Niche-Store
+# n3u-Niche-Store
 ===============
 
 n3u Niche Store 14.02.20 is discontinued, But feel free to fork or study and learn from the code!
 Thank you for downloading n3u Store. Before use, a little setup is in order.
 
-Requirements
+
+## Requirements
 ===============
 Please ensure you meet the following requirements, Not doing so may result in unexpected behavior.
 -- php 5.3 or greater
--- HTML5 Compatible Web Browser (Mostly backward compatible with HTML4)
--- ProsperentAPI membership - See: http://prosperent.com/ref/400414
+-- HTML5 Compatible Web Browser *(Mostly backward compatible with HTML4)*
+-- [ProsperentAPI membership](http://prosperent.com/ref/400414) - FREE
 
-Installation
+## Features
 ===============
-1) Upload contents to any location on your webserver (root or subfolder is fine)
-2) Visit your Admin Panel by adding /?x=admin to the end of the url. For example if n3u Store is uploaded to a subfolder called store, you would visit http://YourDomainHere.com/store/?x=admin
-3) Login using your Admin username and password. The default username is n3uadmin and the default password is n3upass
-4) Configure your store from within the Administration Panel. Once you are happy with the settings click Submit.
+Here are just a few features you can find inside!
+-- Clean URL's (Rewritting)
+-- Caching (Both file and image + Browser headers)
+-- ProductAPI (Access to thousands of products from hundreds of merchants)
+-- Multi-Site support - Yep, You can host more than one store with the same installation!
+-- Admin Panel
+-- NoSQL database
+-- Template Support
+-- HTML5 & CSS3
+-- Earn commissions!
+-- Much More, Dive in and see for yourself!
 
-Upgrading
+## Installation
 ===============
-1) Upload fresh contents to your current installation on webserver.
-2) Visit your Admin Panel by adding ?x=admin to the end of the url.
-3) Use the Restore Config option to restore any backups if you hadnt copied over your config from a previous version.
-4) Login using your Admin username and password.
-5) Submit your configuration to apply any changes that may have occurred between versions.
+1. Upload contents to any location on your webserver *(root or subfolder is fine)*
+2. Visit your Admin Panel by adding /?x=admin to the end of the url. For example if n3u Store is uploaded to a subfolder called store, you would visit `http://YourDomainHere.com/store/?x=admin`
+3. Login using your Admin username and password. The default username is **n3uadmin** and the default password is **n3upass**
+4. Configure your store from within the **Administration Panel**. Once you are happy with the settings click Submit.
 
-Changelog
+## Upgrading
+===============
+1. Upload fresh contents to your current installation on webserver.
+2. Visit your Admin Panel by adding ?x=admin to the end of the url.
+3. Use the Restore Config option to restore any backups if you hadnt copied over your config from a previous version.
+4. Login using your Admin username and password.
+5. Submit your configuration to apply any changes that may have occurred between versions.
+
+### Changelog
 ===============
 Changes since 13.10.20:
  - New Features:
