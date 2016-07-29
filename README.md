@@ -1,33 +1,32 @@
 # n3u-Niche-Store
 ===============
 
-n3u Niche Store 14.02.20 is discontinued, But feel free to fork or study and learn from the code!
-Thank you for downloading n3u Store. Before use, a little setup is in order.
-
+n3u Niche Store was **DISCONTINUED** as of version 14.02.20, It tested functional as of July 2016 but no gurantees will be made that it will remain functional. Please feel free to fork to maintain and/or study & learn from the code!
 
 ## Requirements
 ===============
 Please ensure you meet the following requirements, Not doing so may result in unexpected behavior.
 -- php 5.3 or greater
 -- HTML5 Compatible Web Browser *(Mostly backward compatible with HTML4)*
--- [ProsperentAPI membership](http://prosperent.com/ref/400414) - FREE
+-- [ProsperentAPI membership](http://prosperent.com/ref/400414) - **FREE, Earn Commissions**
 
 ## Features
 ===============
-Here are just a few features you can find inside!
--- Clean URL's (Rewritting)
--- Caching (Both file and image + Browser headers)
--- ProductAPI (Access to thousands of products from hundreds of merchants)
--- Multi-Site support - Yep, You can host more than one store with the same installation!
--- Admin Panel
--- NoSQL database
--- Template Support
--- HTML5 & CSS3
--- Earn commissions!
--- Much More, Dive in and see for yourself!
+Here are just a few of the many features you can find inside!
+- Clean URL's (Rewritting)
+- Caching (Both file and image + Browser headers)
+- ProductAPI (Access to thousands of products from hundreds of merchants)
+- Multi-Site support ... Yep, You can host more than one store with the same installation!
+- Admin Panel
+- NoSQL database
+- Template Support
+- HTML5 & CSS3
+- Earn commissions!
+- Much More, Dive in and see for yourself!
 
 ## Installation
 ===============
+Thank you for downloading n3u Niche Store. Before use, a little setup is in order...
 1. Upload contents to any location on your webserver *(root or subfolder is fine)*
 2. Visit your Admin Panel by adding /?x=admin to the end of the url. For example if n3u Store is uploaded to a subfolder called store, you would visit `http://YourDomainHere.com/store/?x=admin`
 3. Login using your Admin username and password. The default username is **n3uadmin** and the default password is **n3upass**
