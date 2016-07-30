@@ -1,7 +1,12 @@
+Skip to:	[Requirements](#requirements), [Features](#features), [Installation](#installation), [Upgrading](#upgrading), [Changes](#changes), [Download](https://github.com/Strykerraven/n3u-Niche-Store/archive/master.zip)
+
+
+
 # n3u-Niche-Store
 ===============
+n3u Niche Store was officially **DISCONTINUED** as of version 14.02.20, It tested functional as of July 2016 but no gurantees will be made that it will remain functional. Please feel free to fork to maintain and/or study & learn from the code!
 
-n3u Niche Store was **DISCONTINUED** as of version 14.02.20, It tested functional as of July 2016 but no gurantees will be made that it will remain functional. Please feel free to fork to maintain and/or study & learn from the code!
+
 
 ## Requirements
 ===============
@@ -28,6 +33,7 @@ Here are just a few of the many features you can find inside!
 ## Installation
 ===============
 Thank you for downloading n3u Niche Store. Before use, a little setup is in order...
+
 1. Upload contents to any location on your webserver *(root or subfolder is fine)*
 2. Visit your Admin Panel by adding /?x=admin to the end of the url. For example if n3u Store is uploaded to a subfolder called store, you would visit `http://YourDomainHere.com/store/?x=admin`
 3. Login using your Admin username and password. The default username is **n3uadmin** and the default password is **n3upass**
@@ -43,4 +49,8 @@ Thank you for downloading n3u Niche Store. Before use, a little setup is in orde
 
 ### Changes
 ===============
-[See changelog.txt](https://github.com/Strykerraven/n3u-Niche-Store/blob/master/changelog.txt)
+[See changelog.txt](https://github.com/Strykerraven/n3u-Niche-Store/blob/master/changelog.txt) for a full list of changes.
+
+
+
+[Back To Top](#n3u-niche-store)
