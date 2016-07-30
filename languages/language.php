@@ -1,7 +1,7 @@
 <?php 
 	/**
 		n3u Niche Store - Custom Niche PHP Script
-		Copyright (C) 2012-2014 n3u.com
+		Copyright (C) 2012-2016 Strykerraven <https://github.com/Strykerraven/>
 
 		This program is free software: you can redistribute it and/or modify
 		it under the terms of the GNU General Public License as published by
@@ -34,7 +34,7 @@
 			Therefor en-us = English (United States)
 			or en-gb = English (United Kingdom)
 			
-	**/
+	*/
 	if(!defined('n3u')){die('Direct access is not permitted.');} // Is n3u defined?
 	require_once($n3u_configVars['language_dir'] . $n3u_inputVars['lang'] . '/' . $n3u_inputVars['lang'] . '.php');
 	$n3u_langtemp = array(); // Build a temp array to store data during the following loop:

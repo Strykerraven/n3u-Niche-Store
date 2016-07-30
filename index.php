@@ -1,7 +1,7 @@
 <?php 
 	/**
 		n3u Niche Store - Custom Niche PHP Script
-		Copyright (C) 2012-2014 n3u.com
+		Copyright (C) 2012-2016 Strykerraven <https://github.com/Strykerraven/>
 
 		This program is free software: you can redistribute it and/or modify
 		it under the terms of the GNU General Public License as published by
@@ -20,7 +20,7 @@
 			Do not inject any code directly into this file unless you are sure 
 			what you are doing as that code will be replaced in future updates.
 			
-	**/
+	*/
 	// $mtime = explode(" ",microtime());$mtime = $mtime[1] + $mtime[0];$starttime = $mtime;
 	define('n3u', TRUE); // Lets define n3u here as this file calls all other files.
 	require_once('n3u.php'); // The brains
