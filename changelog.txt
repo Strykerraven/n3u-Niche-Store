@@ -1,37 +1,44 @@
-Current Version: 14.02.20
+Current Version: 16.07.29
+
+Changes since 14.02.20:
+- Removed many references to n3u.com since domain is no longer used, Updated with github page url.
+- Cleaned up some code
+- Fine-Tuned a few settings
+- Removed version checking due to domain no longer being used.
+
 
 Changes since 13.10.20:
  - New Features:
-    -- Messages - Messages show in Administration Panel to manage site-messages 
+    -- Messages - Messages show in Administration Panel to manage site-messages
        easily. Supports viewing messages from all stores in multi-store setups
        for quicker access. Messages can also be deleted from Admin Panel and
        pass through PHP's sanitize filters for safety. The Contact Form also
-       deploys hidden fields that if populated will prevent messages from spam 
+       deploys hidden fields that if populated will prevent messages from spam
        bots from being sent. This is in addition to the optional reCaptcha which
        is highly recommended unless you have plans to install something else.
-       Also added a check-box so visitors must confirm they agree to your Terms 
-       and Privacy Policy before contacting you. Duplicate messages that are 
-       submitted with the same name + e-mail + comments will overwrite 
+       Also added a check-box so visitors must confirm they agree to your Terms
+       and Privacy Policy before contacting you. Duplicate messages that are
+       submitted with the same name + e-mail + comments will overwrite
        themselves reducing the possibility of duplicate messages.
-    -- Seamless Scrolling - This requested feature is made possible by jScroll. 
+    -- Seamless Scrolling - This requested feature is made possible by jScroll.
        n3u Niche Store fully integrated jScroll with its existing Pagination
-       structure. Should a visitor view your site and have java-script disabled, 
-       n3u Niche Store will safely display the traditional Pagination instead. 
-       Pagination is removed with seamless scrolling to prevent Pagination 
+       structure. Should a visitor view your site and have java-script disabled,
+       n3u Niche Store will safely display the traditional Pagination instead.
+       Pagination is removed with seamless scrolling to prevent Pagination
        clutter which helps to create a seamless and modern browsing experience.
        Seamless Scrolling is featured in all templates except for lite. Should
        you prefer to disable this, you will need to open the templates main js
-       file and remove the line that mentions jScroll and delete from the 
+       file and remove the line that mentions jScroll and delete from the
        templates folder the file named jquery.jscroll.min.js
-    -- Index Page is now smarter and will better detect blank images and show a 
+    -- Index Page is now smarter and will better detect blank images and show a
        "No Image" png in place of the blank image when Caching is enabled.
     -- SEO Improvement - Added Schema.org Markup to Search and Item Pages.
        See http://www.schema.org/Product
-    -- Block system has been rewritten. Blocks no longer determine position or 
-       order via filenames or paths. Instead, These values are now read/written 
-       from/to a single hostname_block_config.php file that contains values for 
-       all blocks. Block positions and sorting orders may still be fully 
-       configured through the Admin Panel. Blocks are automatically deleted and 
+    -- Block system has been rewritten. Blocks no longer determine position or
+       order via filenames or paths. Instead, These values are now read/written
+       from/to a single hostname_block_config.php file that contains values for
+       all blocks. Block positions and sorting orders may still be fully
+       configured through the Admin Panel. Blocks are automatically deleted and
        added to the block_config if removed or added to the Blocks directory.
        Going forward, Blocks will no longer risk being duplicate and thus Blocks
        will again be packaged in each release as opposed to downloading them
@@ -40,17 +47,17 @@ Changes since 13.10.20:
  - Changes:
     -- Updated jQuery to version 2.1.0
     -- Dir_Sizes are now cached if caching is enabled. This will greatly speedup
-       the admin dashboard loading times. To keep results of caching sizes more 
+       the admin dashboard loading times. To keep results of caching sizes more
        current, this cache expires/renews on 1/4th of the cache lifetime.
        Thus if the lifetime is 24 hours, this will cache for 6 hours.
     -- Separated Admin Style for easier management.
     -- Cleaned up the display of Debugging Info.
     -- Improved detection of blank images, These should no longer be cached.
-    -- With the introduction of the new Message feature, server reliance on the 
+    -- With the introduction of the new Message feature, server reliance on the
        mail() protocol has been phased out. Should you need to reply to a
-       message, You may click the senders email address and your operating 
+       message, You may click the senders email address and your operating
        systems default email client or web browser will auto-fill with the data.
-    -- Cleaned up Admin Panel and removed many of the auto-collapse legends. 
+    -- Cleaned up Admin Panel and removed many of the auto-collapse legends.
        Also styled a few things to create a more consistent browsing experience.
     -- Updated some language settings
     -- Updated copyrights to reflect 2014.
@@ -64,9 +71,9 @@ Changes since 13.10.20:
     -- Updated Categories Block with new Admin links.
     -- Updated Back To Top styling.
  - Template Specific:
-    -- On n3u template, The Top Menu is now fully centered. Also added little 
+    -- On n3u template, The Top Menu is now fully centered. Also added little
        drop down tri-angle.
-    -- Deleted admin.php and TemplateName_admin.css files from all templates 
+    -- Deleted admin.php and TemplateName_admin.css files from all templates
        since the Admin Panel is now considered a separate single template.
     -- Added new template, BlueJay (available on the web-site).
     -- Fix bug where the Auto-linking of search terms/merchants and brands were
@@ -74,34 +81,34 @@ Changes since 13.10.20:
     -- SEO Improvement: Meta Descriptions are now limited to 160 characters max
        for item pages since other pages use shorter descriptions currently.
     -- SEO Improvement: W3C recommends titles are no longer than 64 characters.
-       This is done by limiting the title to 55 Characters + SiteName to allow 
+       This is done by limiting the title to 55 Characters + SiteName to allow
        for a 9 character buffer to be reserved for the sites title.
-    -- Fixed Merchant and Brand links for search result pages on all templates. 
+    -- Fixed Merchant and Brand links for search result pages on all templates.
        Brands/Merchants now link to specific searches instead as first intended.
     -- Numerous style changes/fixes to each template.
 
 
 Changes since 13.09.07:
  - New Features:
-    -- n3u Niche Store now supports multiple domains/installations and unique 
+    -- n3u Niche Store now supports multiple domains/installations and unique
        settings for each. Simply point your domains/subdomains to the same
        n3u Niche Store installation and setup each from it's own admin panel.
        Note that each domain does not see each other but will share core files
        assuming you leave the paths alone or configure all to match.
  - Changes:
     -- Seperated administration css into it's own file within template folder.
-       This reduces page request size and speeds up page load time by not 
+       This reduces page request size and speeds up page load time by not
        needing to process unused CSS for non-admin visitors.
-    -- Error reporting now displays errors if debug mode is enabled but hides 
+    -- Error reporting now displays errors if debug mode is enabled but hides
        them if debug mode is disabled.
-    -- CSS, JS & Search Result cache files now moved to cache/hostname. This is 
+    -- CSS, JS & Search Result cache files now moved to cache/hostname. This is
        to distinguish between various templates when used with multiple domains.
     -- Moved custom pages from templates/template_name/custom/ to inc/custom/
-       This change will make custom pages show up between all templates. If 
+       This change will make custom pages show up between all templates. If
        you've setup custom pages previously, you'll need to move them manually.
     -- Also custom pages now gain the domain name they're created for. I.E.
        test.php becomes yourdomain.net_test.php but this does not effect the URL
-       You'd still visit http://yourdomain.net/index.php?x=page&page=test or 
+       You'd still visit http://yourdomain.net/index.php?x=page&page=test or
        http://yourdomain.net/page_test.htm depending on your CleanURLs setting.
  - Block Specific:
     -- Added Back To Top floating bar when page is scrolled, also auto-hides.
@@ -111,7 +118,7 @@ Changes since 13.09.07:
     -- Updated Feed Block limits.
     -- Fixed bug with Feed Block items not displaying when caching is disabled.
  - sfb Template Specific:
-    -- Categories Block now mimics look of n3u template. 
+    -- Categories Block now mimics look of n3u template.
  - All Templates Specific:
     -- As an additional SEO friendly fail-safe, Metatags are now used to prevent
        search engines from indexing search, item and index pages when no results
@@ -122,7 +129,7 @@ Changes since 13.09.07:
 Changes since 13.05.10:
  - Changes:
     -- Updated ProsperentApi library to 2.1.9
-    -- Increased results returned to 1000 items from initial limit of 100. This 
+    -- Increased results returned to 1000 items from initial limit of 100. This
        may change in the future if Prosperent changes the limit in the future.
     -- Added Prosperent Endpoint selection to Search Settings in Admin Panel.
        Currently supports Canada, United Kingdom, and United States.
@@ -134,14 +141,14 @@ Changes since 13.05.10:
     -- n3u_FetchFeed now supports caching.
  - Fixes:
     -- Fixed issues where Performance Ads were not displaying.
-    -- Fixed "Pages" page in Admin, Now displays correct example links if 
+    -- Fixed "Pages" page in Admin, Now displays correct example links if
        n3u Niche Store is installed to a sub-directory.
  - Block Specific:
     -- Added CSS classes for blocks sorting orders to all templates.
-    -- Removed all blocks out of default package. This is to avoid duplicate 
-       blocks when updating etc. Now you must download each block you want and 
+    -- Removed all blocks out of default package. This is to avoid duplicate
+       blocks when updating etc. Now you must download each block you want and
        upload to the blocks directory separately. As blocks are updated, they'll
-       receive a post of their own on n3u.com. This will also help keep n3u 
+       receive a post of their own on n3u.com. This will also help keep n3u
        Niche Store light by not including the blocks that you may not want
 	   (and allow more to be available without fear of getting too big).
  - n3u Template Specific:
@@ -159,22 +166,22 @@ Changes since 13.05.10:
 
 
 Changes since 13.04.20:
- - Changed Categories Block Behavior on Admin Pages. Now when in Admin, 
+ - Changed Categories Block Behavior on Admin Pages. Now when in Admin,
    provides Admin Page links.
  - Function n3u_Block() can now also return info in a multi-dimensional array
  - Function n3u_DirSize() can now count files in each directory and return
    files count. Also replaced sub_str() with round().
  - Fixed styling issues for blocks located in header.
  - Block Search_Filters now only displays in left and right block areas.
- - Merged Debug Block into a function and merged stylesheet info. Debugging can 
-   still manually be disabled in the Admin Panel. Also fixed to only make API 
+ - Merged Debug Block into a function and merged stylesheet info. Debugging can
+   still manually be disabled in the Admin Panel. Also fixed to only make API
    calls on index, item and search pages for $n3u_results.
  - Fixed item page meta data.
  - Renamed $n3u_configVars['template_dir'] to $n3u_configVars['Template_Dir']
  - Separated template name from template_dir as $n3u_configVars['Template_Name']
  - Added download page mode to $n3u_inputVars['x'] (used for backups)
  - Fixed issue where side links were not clickable when content was minimized.
- - Added drop-in support for custom pages. Simply create/upload a page named 
+ - Added drop-in support for custom pages. Simply create/upload a page named
    CustomName.php in your templates custom folder. Then visit:
    /index.php?x=page&page=CustomName or /page_CustomName.htm to view.
  - Updated included ProsperentApi library to 2.1.5
@@ -223,7 +230,7 @@ Changes since 13.03.31:
  - Error Reporting is now disabled from php (n3u_Defaults) instead of .htaccess
  - http '404 Not Found' header is now sent when no results are found.
  - Added Canonical URLs to both Privacy Policy and Terms pages
- - Added Ad Block 
+ - Added Ad Block
     -- Added support in admin panel for custom ad code
     -- Added detection to strip <!-- and //--> from inserted code (script tags)
        to prevent issues with minification.
@@ -259,7 +266,7 @@ Changes since 13.03.31:
 Changes since 13.03.11:
  - Reduced Image Caching to 45 days to reduce image folder size.
  - Added Item Feeds (Atom 1.0) and added to all search page headers.
- - Added auto creation of inc/custom_functions.php to prevent overwriting 
+ - Added auto creation of inc/custom_functions.php to prevent overwriting
    during upgrading. If the file exist, it's included thus functions preserved.
  - Corrected incorrect version in n3u.php
  - Added Admin Menu to menu on n3u template (only visible when logged in)
@@ -273,11 +280,11 @@ Changes since 13.03.11:
 Changes since 13.02.23:
  - Added new default template called n3u
  - Moved over to extended queries instead of standard queries.
-    -- As this is more of a Niche Store and less of a search engine, Focused 
+    -- As this is more of a Niche Store and less of a search engine, Focused
        results are preferred.
  - Added CategoryFilters to support filtering out junk results.
  - Added jQuery support via GoogleAPI (most users will have this already cached)
- - Added JS caching & minifacation 
+ - Added JS caching & minifacation
     -- As with CSS caching, this is automatically enabled if caching is.
  - Added Collapsible Blocks js & implemented in theme sfb
 	-- Simply clicking the block titles collapses/expands block content.
@@ -295,16 +302,16 @@ Changes since 12.12.24: (First official release)
    information. This makes product urls slightly longer but at this point the
    visitor is only being redirected to merchant anyway.
  - SEO Changes:
-	-- Extended Friendly URLs to include affiliate urls, privacy, terms and 
+	-- Extended Friendly URLs to include affiliate urls, privacy, terms and
        contact pages.
 	-- Fixed search page behavior so that canonical urls default to sorting by
-       relevance. 
+       relevance.
 	-- When viewing a search page with any sorting option other than REL, pages
        are not indexed to minimize duplicate content.
 	-- Added rel="next" & rel="prev" tags to paginated results.
  - Added anchor tag prefetching to number, and first/last pagination links.
    Note: No major browsers support anchor prefetching currently. Firefox states
    possible future support. With the variety of browsers out there today it
-   seemed better to implement than to not. This may be revisited when link 
+   seemed better to implement than to not. This may be revisited when link
    prefetching is better explored or as standards change.
  - Removed ProsperLinks integration, Service is discontinued for newer members.

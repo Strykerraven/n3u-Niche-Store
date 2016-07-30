@@ -6,8 +6,6 @@ Skip to:	[Requirements](#requirements), [Features](#features), [Installation](#i
 ===============
 n3u Niche Store was officially **DISCONTINUED** as of version 14.02.20, It tested functional as of July 2016 but no gurantees will be made that it will remain functional. Please feel free to fork to maintain and/or study & learn from the code!
 
-
-
 ## Requirements
 ===============
 Please ensure you meet the following requirements, Not doing so may result in unexpected behavior.
@@ -35,7 +33,7 @@ Here are just a few of the many features you can find inside!
 Thank you for downloading n3u Niche Store. Before use, a little setup is in order...
 
 1. Upload contents to any location on your webserver *(root or subfolder is fine)*
-2. Visit your Admin Panel by adding /?x=admin to the end of the url. For example if n3u Store is uploaded to a subfolder called store, you would visit `http://YourDomainHere.com/store/?x=admin`
+2. Visit your Admin Panel by adding /?x=admin to the end of the url. For example if n3u Niche Store is uploaded to a subfolder called store, you would visit `http://YourDomainHere.com/store/?x=admin`
 3. Login using your Admin username and password. The default username is **n3uadmin** and the default password is **n3upass**
 4. Configure your store from within the **Administration Panel**. Once you are happy with the settings click Submit.
 

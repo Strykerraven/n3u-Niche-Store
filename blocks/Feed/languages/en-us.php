@@ -1,7 +1,7 @@
 <?php 
 	/**
 		n3u Niche Store - Custom Niche PHP Script
-		Copyright (C) 2012-2014 n3u.com
+		Copyright (C) 2012-2016 Strykerraven <https://github.com/Strykerraven/>
 
 		This program is free software: you can redistribute it and/or modify
 		it under the terms of the GNU General Public License as published by
@@ -36,7 +36,7 @@
 			
 			IMPORTANT: If you decide to use a ' character, you will need to escape it with a \
 			Example: 'I can\'t do that!'			
-	**/
+	*/
 	if(!defined('n3u')){die('Direct access is not permitted.');} // Is n3u defined?
 	$n3u_blocklang = array(
 	// Useage:

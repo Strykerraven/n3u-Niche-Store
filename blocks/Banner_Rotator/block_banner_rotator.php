@@ -1,7 +1,7 @@
 <?php 
 	/**
 		n3u Niche Store - Custom Niche PHP Script
-		Copyright (C) 2012-2014 n3u.com
+		Copyright (C) 2012-2016 Strykerraven <https://github.com/Strykerraven/>
 
 		This program is free software: you can redistribute it and/or modify
 		it under the terms of the GNU General Public License as published by
@@ -15,7 +15,7 @@
 
 		You should have received a copy of the GNU General Public License
 		along with this program. If not, see <http://www.gnu.org/licenses/>
-	**/
+	*/
 	if(!defined('n3u')){die('Direct access is not permitted.');} // Is n3u defined?
 	function n3u_RandomBanner($total = 3){ // Randomally choose a banner.
 		global $n3u_configVars;
